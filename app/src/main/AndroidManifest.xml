@@ -29,8 +29,8 @@
             android:authorities="com.example.android.shushme"
             android:exported="false"/>
 
+        <receiver android:name=".GeofenceBroadcastReceiver"/>
+
     </application>
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 </manifest>
